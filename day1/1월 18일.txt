@@ -1,0 +1,21 @@
+[실습1]
+v1 = 100
+v2 = 50
+r1 = v1 + v2
+r2 = v1 - v2
+r3 = v1 * v2
+r4 = v1 / v2
+print(r1, r2, r3, r4)
+
+[실습2]
+name1 = "강"
+name2 = "승"
+name3 = "준"
+print(name1 + name2 + name3)
+print(name1 + "@" + name2 + "@" + name3)
+print(name1 + "---" + name2 + "---" + name3)
+
+[실습3]
+temp = [10, 25, 34]
+
+print("합은 %d 이고 평균은 %.1f 입니다."%(sum(temp),sum(temp)/len(temp)))
